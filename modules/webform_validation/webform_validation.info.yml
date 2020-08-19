@@ -1,0 +1,14 @@
+name: Webform Validation
+description: 'Add validation rules to Webforms.'
+package: 'Webform'
+
+type: module
+core_version_requirement: ^8.8 || ^9
+
+dependencies:
+  - 'webform:webform'
+
+# Information added by Drupal.org packaging script on 2020-06-26
+version: '2.0.x-dev'
+project: 'webform_validation'
+datestamp: 1593205450
