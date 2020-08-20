@@ -1,0 +1,35 @@
+name: TH_base2
+type: theme
+description: 'Turtlehuts HTML5, SASS, Responsive grid starter theme.'
+package: Core
+# version: VERSION
+# core: 8.x
+
+libraries:
+  - core/normalize
+  - TH_base2/global
+
+
+regions:
+  top_navigation: 'Top Top Nav'
+  header: Header
+  service_menu: 'Service Menu'
+  highlighted: Highlighted
+  help: Help
+  hero: Hero
+  main_top: 'Main Top'
+  content: Content
+  main_bottom: 'Main Bottom'
+  highlighted: Highlighted
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
+  th_code: 'TH Code Region'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+# Information added by Drupal.org packaging script on 2018-04-28
+version: '8.x-2.0'
+core: '8.x'
+project: 'TH_base2'
+datestamp: 1524949387

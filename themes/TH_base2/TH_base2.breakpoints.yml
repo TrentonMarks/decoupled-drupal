@@ -1,0 +1,7 @@
+
+TH_base2.narrow:
+  label: narrow
+  mediaQuery: '(min-width: 768px)'
+  weight: 1
+  multipliers:
+    - 1x
