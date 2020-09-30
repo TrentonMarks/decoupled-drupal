@@ -645,7 +645,7 @@ ul.menu.mm-listview {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   #top-top-nav .container div,
   #top-top-nav #block-toptopnav {
     width: 100%;
