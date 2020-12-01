@@ -1,4 +1,4 @@
-/*Brand Colors Colors*/
+/* Brand Colors Colors */
 body {
   background: #292929;
 }
@@ -79,7 +79,7 @@ a:hover {
   text-align: right;
 }
 
-#top-top-nav #block-toptopnav a {
+#top-top-nav #block-toptopnav #superfish-top-top-nav > li > a {
   color: #fafafa;
   padding: 5px 20px;
   margin: 3px 0;
@@ -90,6 +90,10 @@ a:hover {
   transition-property: color,background-color;
 }
 
+#top-top-nav #block-toptopnav #superfish-top-top-nav > li > a .sf-sub-indicator {
+  display: none;
+}
+
 #top-top-nav #block-toptopnav a:hover {
   /* color: #000; */
   background-color: #26526C;
@@ -97,19 +101,26 @@ a:hover {
 
 #top-top-nav #block-toptopnav ul ul {
   text-align: left;
-  background: rgba(41, 41, 41, 0.2);
+  background: #fff;
   top: 32px;
+}
+#top-top-nav #block-toptopnav ul ul li {
+  color: #257dc1;
+}
+
+#top-top-nav #block-toptopnav ul ul li:hover {
+  color: #292929;
+  background: rgba(41, 41, 41, 0.2);
 }
 
 #top-top-nav #block-toptopnav ul ul a {
-  color: #257dc1;
-  padding: 5px 20px;
-  margin: 3px 0;
+  padding: 8px 20px;
   border: none;
 }
 
 #top-top-nav #block-toptopnav ul ul a:hover {
-  color: #032438;
+  background: transparent;
+  color: #292929;
 }
 
 #top-top-nav #block-headerphone {
@@ -175,9 +186,9 @@ a:hover {
 #header #service-menu li ul > li a {
   color: #257dc1;
   padding: 4% 2%;
+  padding-bottom: calc(4% + 1px);
   font-size: 15px;
   font-weight: normal;
-  margin-bottom: 1px;
   border-bottom: 1px solid #257dc1;
 }
 
@@ -358,6 +369,8 @@ ul.menu.mm-listview {
   text-align: center;
   display: flex;
   align-items: center;
+  background-size: cover;
+  background-position: center;
 }
 
 .path-frontpage #page-hero {
@@ -645,6 +658,12 @@ ul.menu.mm-listview {
   }
 }
 
+@media screen and (max-width: 850px) {
+  #top-top-nav #block-toptopnav #superfish-top-top-nav > li > a {
+    padding: 5px 13px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   #top-top-nav .container div,
   #top-top-nav #block-toptopnav {
@@ -664,6 +683,18 @@ ul.menu.mm-listview {
     display: block;
     margin: 0;
     padding: 2%;
+    color: #fff;
+  }
+  #top-top-nav #block-toptopnav ul ul a {
+    font-size: 15px;
+    color: rgb(98, 142, 168);
+  }
+  #top-top-nav #block-toptopnav ul ul a:hover {
+    background-color: #26526C;
+    color: #fff;
+  }
+  #top-top-nav #block-toptopnav ul .sf-expanded .sf-with-ul {
+    font-weight: 600;
   }
   #header .container #header-region {
     width: 100%;
